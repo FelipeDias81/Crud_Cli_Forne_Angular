@@ -1,0 +1,32 @@
+{
+    "client": [
+        {
+            "id": 1,
+            "name": "Celbinho Le Gostoso",
+            "email": "celbo69@gmail.com",
+            "phone": "(12)99345-3372",
+            "genre": "MASCULO"
+        },
+        {
+            "id": 2,
+            "name": "Celbinho Le Gostoso",
+            "email": "celbo69@gmail.com",
+            "phone": "(12)99345-3372",
+            "genre": "FEMELO"
+        }
+    ],
+    "supplier": [
+        {
+            "id": 1,
+            "name": "Celbinho Le Gostoso",
+            "email": "celbo69@gmail.com",
+            "phone": "(12)99345-3372"
+        },
+        {
+            "id": 2,
+            "name": "Celbinho Le Gostoso",
+            "email": "celbo69@gmail.com",
+            "phone": "(12)99345-3372"
+        }
+    ]
+}
