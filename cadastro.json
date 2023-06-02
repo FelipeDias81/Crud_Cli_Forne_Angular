@@ -1,32 +1,53 @@
 {
-    "client": [
-        {
-            "id": 1,
-            "name": "Celbinho Le Gostoso",
-            "email": "celbo69@gmail.com",
-            "phone": "(12)99345-3372",
-            "genre": "MASCULO"
-        },
-        {
-            "id": 2,
-            "name": "Celbinho Le Gostoso",
-            "email": "celbo69@gmail.com",
-            "phone": "(12)99345-3372",
-            "genre": "FEMELO"
-        }
-    ],
-    "supplier": [
-        {
-            "id": 1,
-            "name": "Celbinho Le Gostoso",
-            "email": "celbo69@gmail.com",
-            "phone": "(12)99345-3372"
-        },
-        {
-            "id": 2,
-            "name": "Celbinho Le Gostoso",
-            "email": "celbo69@gmail.com",
-            "phone": "(12)99345-3372"
-        }
-    ]
+  "client": [
+    {
+      "id": 1,
+      "name": "Celbinho Le Gostoso",
+      "email": "celbo69@gmail.com",
+      "phone": "(12)99345-3372",
+      "genre": "MASCULO"
+    },
+    {
+      "id": 2,
+      "name": "Celbinho Le Gostoso",
+      "email": "celbo69@gmail.com",
+      "phone": "(12)99345-3372",
+      "genre": "FEMELO"
+    },
+    {
+      "id": 3,
+      "name": "Etec Martinho di Ciero",
+      "email": "mdo@example.comewqeqweqewq",
+      "phone": "11978098627",
+      "genre": "Feminino"
+    },
+    {
+      "id": 4,
+      "name": "juca",
+      "email": "mdo@example.comewqeqweqewq",
+      "phone": "11978098627",
+      "genre": "Masculino"
+    },
+    {
+      "id": 5,
+      "name": "Etec Martinho di Ciero",
+      "email": "mdo@example.comewqeqweqewq",
+      "phone": "11978098627",
+      "genre": "Feminino"
+    }
+  ],
+  "supplier": [
+    {
+      "id": 1,
+      "name": "Celbinho Le Gostoso",
+      "email": "celbo69@gmail.com",
+      "phone": "(12)99345-3372"
+    },
+    {
+      "id": 2,
+      "name": "Celbinho Le Gostoso",
+      "email": "celbo69@gmail.com",
+      "phone": "(12)99345-3372"
+    }
+  ]
 }

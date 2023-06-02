@@ -1,7 +1,6 @@
 <div class="row">
     <div class="col-8 m-auto">
-
-        <form []="formGroupClient">
+        <form [formGroup]="formGroupClient">
             <div class="mb-3">
                 <div class="display-6 text-center">
                     Cadastro de Cliente
@@ -30,10 +29,9 @@
             </div>
             <div class="mb-3">
                 <label for="genre" class="form-label">Genero</label>
-                <select type="text" formControlName="genre" class="form-select" id="genre" placeholder="Genero">
-                    <option hidden>Selecione o Genero</option>
-                    <option value="M">Masculino</option>
-                    <option value="F">Feminino</option>
+                <select type="text" formControlName="genre" class="form-select" id="genre">
+                    <option>Masculino</option>
+                    <option>Feminino</option>
                 </select>
                 <div *ngIf="submitted && genre.invalid">
                     <small class="text-danger">Genero inválido!</small>
@@ -53,6 +51,7 @@
         </form>
     </div>
 </div>
+
 <table class="table table-striped">
     <thead>
         <tr>
@@ -66,6 +65,7 @@
     </thead>
     <tbody>
         <tr *ngFor="let client of client">
+            <th scope="row">{{client.id}}</th>
             <td>{{client.name}}</td>
             <td>{{client.email}}</td>
             <td>{{client.phone}}</td>
